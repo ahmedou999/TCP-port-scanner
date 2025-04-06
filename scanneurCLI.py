@@ -95,7 +95,6 @@ def sauvegarde(dict):
                 return
 
 scanRapide(ip)
-print("🔄 Scan en cours, veuillez patienter...")
 for port , v in portL.items():
     if v == "Inconnu":
         print(Fore.YELLOW + f"Le port {port} est associé a la valeur:{v}"+ Style.RESET_ALL)
